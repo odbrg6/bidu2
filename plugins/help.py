@@ -44,6 +44,5 @@ async def button_click(client, callback_query):
         await send_message_with_keyboard(chat_id, text, keyboard)
 
 # تسجيل الدوال كمنبثقة
-app.start()
 app.on_message(filters.command("start", prefixes="/"))(start_command)
 app.on_callback_query()(button_click)
