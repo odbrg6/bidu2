@@ -1,4 +1,4 @@
-from pyrogram import Client, filters
+from pyrogram import Client as app, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 async def send_message_with_keyboard(chat_id, text, keyboard):
