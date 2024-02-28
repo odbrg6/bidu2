@@ -1,0 +1,10 @@
+pyrogram
+typing
+asSQL
+yt_dlp
+dragonxxdlib
+youtube_search
+requests
+getids
+Python_ARQ
+akinator
