@@ -1,4 +1,4 @@
-from pyrogram import app, Client, filters
+from pyrogram import Client as app, filters
 import json
 import random
 from typing import List, Union
