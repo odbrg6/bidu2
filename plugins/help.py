@@ -1,6 +1,7 @@
 from pyrogram import Client as app, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
+# دالة لإرسال رسالة مع لوحة المفاتيح المعطاة
 async def send_message_with_keyboard(chat_id, text, keyboard):
     await app.send_message(chat_id, text, reply_markup=keyboard)
 
